@@ -23,7 +23,7 @@ let reset = false;
                     0, display.innerText.length-1
                 )
                 display.innerText = (rem) ? rem : '0'
-            }
+            },
             equals: () => {
                 display.innerText = eval(display.innerText); 
                 reset = true
